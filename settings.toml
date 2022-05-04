@@ -1,7 +1,10 @@
 [default]
+EXTENSIONS = [
+  "extensions.database",
+  "blueprints.restapi",
+]
 SQLALCHEMY_DATABASE_URI = "sqlite:///test.db"
 TITLE = "TemplateApi"
-
 
 [production]
 SQLALCHEMY_DATABASE_URI = "sqlite:///prodtest.db"
