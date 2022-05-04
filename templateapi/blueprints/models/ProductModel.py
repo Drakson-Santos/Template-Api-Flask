@@ -1,4 +1,4 @@
-from extensions.database import db
+from templateapi.extensions.database import db
 
 class Products(db.Model):
     id = db.Column(db.Integer, primary_key=True)

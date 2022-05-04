@@ -1,6 +1,6 @@
 from flask import jsonify
 from flask_restful import Resource
-from blueprints.models import Products
+from templateapi.blueprints.models.ProductModel import Products
 
 
 class ProductResource(Resource):
